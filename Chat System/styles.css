@@ -1,0 +1,32 @@
+.textzone {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+#entermsg {
+  display: flex;
+  flex: 7;
+}
+
+#send-receive {
+  display: flex;
+  flex: 3;
+  text-align: center;
+}
+
+#message-area {
+  overflow: auto;
+  position: relative;
+  bottom: 0;
+  height: 400px;
+}
+
+#message-list {
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  max-height: 400px;
+}
